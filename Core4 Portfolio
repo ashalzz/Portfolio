@@ -53,11 +53,12 @@
         <tr>
           <td><b>Loops</b></td>
           <td><q>a structure, series, or process the end of which is connected to the beginning</q></td>
-          <td>pendown()
-              for side in range (4):
-                  right(120)
-                  forward(50)
-               penup()</td>
+          <td>while t < n:
+                pendown()
+                speed(10)
+                forward(30)
+                left(360/n)
+                t+=1</td>
           <td>  </td>
           <td></td>
         </tr>
@@ -66,7 +67,8 @@
         <tr>
           <td><b>Conditionals</b></td>
           <td><q>features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false</q></td>
-          <td>  </td>
+          <td>if t > n:
+                 penup()</td>
           <td>  </td>
           <td>If I work for ten hours, then I will make $10.</td>
         </tr>
@@ -75,7 +77,7 @@
         <tr>
           <td><b>Functions</b></td>
           <td><q>a relationship or expression involving one or more variables</q></td>
-          <td>  </td>
+          <td>pencolor(color)</td>
           <td>  </td>
           <td>  </td>
         </tr>
