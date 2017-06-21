@@ -69,7 +69,7 @@
           <td><q>features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false</q></td>
           <td>if t > n:
                  penup()</td>
-          <td>  </td>
+          <td></td>
           <td>If I work for ten hours, then I will make $10.</td>
         </tr>
 
