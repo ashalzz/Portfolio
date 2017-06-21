@@ -43,7 +43,7 @@
         <!-- Fill in the row for Variables -->
         <tr>
         <td><b>Variables</b></td>
-          <td>"a data item that may take on more than one value during the runtime of a program"</td>
+          <td><q>a data item that may take on more than one value during the runtime of a program</q></td>
           <td>color = input("Enter a color")</td>
           <td>  </td>
           <td>x, y, etc...</td>
@@ -52,7 +52,7 @@
         <!-- Fill in the row for Loops -->
         <tr>
           <td><b>Loops</b></td>
-          <td>"a structure, series, or process the end of which is connected to the beginning"</td>
+          <td><q>a structure, series, or process the end of which is connected to the beginning</q></td>
           <td>pendown()
               for side in range (4):
                   right(120)
@@ -65,7 +65,7 @@
         <!-- Fill in the row for Conditionals -->
         <tr>
           <td><b>Conditionals</b></td>
-          <td>"features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false"</td>
+          <td><q>features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false</q></td>
           <td>  </td>
           <td>  </td>
           <td>If I work for ten hours, then I will make $10.</td>
@@ -74,7 +74,7 @@
         <!-- Fill in the row for Functions -->
         <tr>
           <td><b>Functions</b></td>
-          <td>"a relationship or expression involving one or more variables"</td>
+          <td><q>a relationship or expression involving one or more variables</q></td>
           <td>  </td>
           <td>  </td>
           <td>  </td>
