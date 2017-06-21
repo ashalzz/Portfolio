@@ -46,7 +46,7 @@
           <td><q>a data item that may take on more than one value during the runtime of a program</q></td>
           <td>color = input("Enter a color")</td>
           <td>  </td>
-          <td>x, y, etc...</td>
+          <td>Dollar = 100 pennies</td>
         </tr>
 
         <!-- Fill in the row for Loops -->
@@ -60,7 +60,7 @@
                 left(360/n)
                 t+=1</td>
           <td>  </td>
-          <td></td>
+          <td>Whilst running these 5 laps, pass off the baton to your partner after each completed lap</td>
         </tr>
 
         <!-- Fill in the row for Conditionals -->
@@ -79,7 +79,7 @@
           <td><q>a relationship or expression involving one or more variables</q></td>
           <td>pencolor(color)</td>
           <td>  </td>
-          <td>  </td>
+          <td>Dollar = 100 pennies so 3*Dollar = 300 pennies</td>
         </tr>
 
       </table>
