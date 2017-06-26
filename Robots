@@ -8,3 +8,33 @@
 <h2><b>6/26/17</b></h2>
 <img src=""align="left" style="width:; height:;">
 <p align="right"></p></br>
+</body>
+</html>
+<html lang="en-US">
+  <head>
+    <style>
+      body {background-color: gainsboro;}
+      h1 {
+        color: purple;
+        font-family: 'Trebuchet MS';
+        font-size: 45px;
+      }
+      
+      h2 {
+      	color: darkviolet;
+        font-family: 'Trebuchet MS';
+        font-size: 30px;
+      }
+      
+      li{
+      	color: grey;
+        font-family: New Gothic MT';
+        font-size: 20px;
+      }
+      
+      p{
+        color: mediumorchid;
+        font-family: 'Trebuchet MS';
+        font-size: 20px;
+      }
+      <title>Robots</title>
