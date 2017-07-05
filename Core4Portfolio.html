@@ -2,6 +2,16 @@
 <html>
   <head>
 <input type="search" id="mySearch" placeholder="Search my website.." align="right">
+<button onclick="myFunction()">About Me</button>
+
+<p id="aboutme"></p>
+
+<script>
+function myFunction() {
+    var result = str.link("https://ashalzz.github.io/Portfolio/aboutme.html");
+    document.getElementById("aboutme").innerHTML = result;
+}
+</script>
     <!-- Set the style of the table -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
