@@ -5,6 +5,28 @@
 </head>
 <body>
 <input type="search" id="mySearch" placeholder="Search my website.." align="right">
+<button onclick="myFunction()">About Me</button>
+
+<p id="aboutme"></p>
+
+<script>
+function myFunction() {
+    var str = "About Me";
+    var result = str.link("https://ashalzz.github.io/Portfolio/aboutme.html");
+    document.getElementById("aboutme").innerHTML = result;
+}
+</script>
+<button onclick="myFunction()">Core4</button>
+
+<p id="core4"></p>
+
+<script>
+function myFunction() {
+    var str = "Core4Portfolio";
+    var result = str.link("https://ashalzz.github.io/Portfolio/Core4Portfolio.html");
+    document.getElementById("core4").innerHTML = result;
+}
+</script>
 <h1><center><strong><b>ROBOTS</b></strong></center></h1>
 <h1><u><b>Circuits</b></u></h1>
 <h2><b>6/26/17</b></h2>
