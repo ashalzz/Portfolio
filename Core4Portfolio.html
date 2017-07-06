@@ -2,26 +2,63 @@
 <html>
   <head>
 <input type="search" id="mySearch" placeholder="Search my website.." align="right">
-<button onclick="Function()">About Me</button>
-<button onclick="myFunction()" align="right">Robots</button>
-
-<p id="aboutme"></p>
-
-<script>
-function Function() {
-    var str = "About Me";
-    var result = str.link("https://ashalzz.github.io/Portfolio/aboutme.html");
-    document.getElementById("aboutme").innerHTML = result;
+<style>
+.dropbtn {
+    background-color: #C0C0C0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
-</script>
 
-<p id="robots"></p>
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #A9A9A9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+
+<div class="dropdown">
+<button id="myBtn" class="dropbtn">Explore</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://ashalzz.github.io/Portfolio/aboutme.html">About Me</a>
+    <a href="https://ashalzz.github.io/Portfolio/robots.html">Robots</a>
+</div>
 
 <script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
 function myFunction() {
-    var str = "Robots";
-    var result = str.link("https://ashalzz.github.io/Portfolio/robots.html");
-    document.getElementById("robots").innerHTML = result;
+    document.getElementById("myDropdown").classList.toggle("show");
 }
 </script>
     <h1><b><center><u>Core4</u></center></b></h1>
